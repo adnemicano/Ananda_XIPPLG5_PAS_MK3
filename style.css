@@ -1,0 +1,55 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+h1 {
+    color: #28a745;
+    /* Warna hijau Bootstrap untuk judul besar */
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="number"] {
+    background-color: #343a40;
+    /* Warna hitam keabu-abuan */
+    color: white;
+}
+
+.btn-success {
+    background-color: #28a745 !important;
+    /* Warna hijau Bootstrap untuk tombol sukses */
+    border-color: #28a745 !important;
+}
+
+.btn-warning {
+    background-color: #ffc107 !important;
+    /* Warna kuning Bootstrap untuk tombol peringatan */
+    border-color: #ffc107 !important;
+}
+
+.btn-danger {
+    background-color: #dc3545 !important;
+    /* Warna merah Bootstrap untuk tombol bahaya */
+    border-color: #dc3545 !important;
+}
+
+.table {
+    background-color: #343a40;
+    /* Warna hitam keabu-abuan */
+}
+
+.table th,
+.table td {
+    border-color: #454d55;
+    /* Warna abu-abu kehitaman untuk batasan kolom */
+}
+
+.table-dark th,
+.table-dark td {
+    border-color: #454d55;
+    /* Warna abu-abu kehitaman untuk batasan kolom di mode gelap */
+}
